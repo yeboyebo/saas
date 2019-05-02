@@ -1,0 +1,20 @@
+{
+    "modifications": [
+        {
+            "type": "insertAfterNode",
+            "path": "/layout/newRecordPresupuestoscli/fields/gb__datosGenerales/fields/gb__Direccion/fields/coddir/desc",
+            "value": {
+                "function": "getDireccionCliente"
+            }
+        },
+        {
+            "type": "insertAfterNode",
+            "path": "/layout/newRecordPresupuestoscli/fields/gb__datosGenerales/fields/gb__Direccion/fields/coddir/function",
+            "value": {
+                "params": [
+                    "codcliente"
+                ]
+            }
+        }
+    ]
+}

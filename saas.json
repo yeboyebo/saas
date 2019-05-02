@@ -20,6 +20,14 @@
             {
                 "name": "app_facturacion__menu_facturacion.json",
                 "path": "apps/facturacion/templates/facturacion/"
+            },
+            {
+                "path": "apps/facturacion/templates/facturacion/plantillas/",
+                "name": "app_facturacion__newrecordpresupuestoscli.json"
+            },
+            {
+                "path": "apps/facturacion/templates/facturacion/plantillas/",
+                "name": "app_facturacion__newrecordpedidoscli.json"
             }
         ],
         "deleteFile": []
